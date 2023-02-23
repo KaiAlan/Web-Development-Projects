@@ -1,0 +1,53 @@
+@import url(./utils.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: antiquewhite; */
+}
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    list-style: none;
+    text-size-adjust: 70%;
+    
+
+}
+#signbutton{
+    font: 1.5rem sans-serif;
+}
+
+#startboot{
+    font-size: 2em;
+}
+
+.pfp{
+    margin: 1% 10% 1% 10%;
+    padding: 0 10% 0 10%;
+}
+
+.headmid{
+    display:flex;
+    /* justify-content: center; */
+    align-items:baseline;
+    padding: 150px;
+    
+    background-image: url(/Assets/pexels-pixabay-414144.jpg);
+}
+
+.headmidpara{
+    margin: 12px;
+    font: 3em sans-serif;
+    color: white;
+    margin-bottom: 3rem !important;
+}
+/* .headmidinput{
+    position: relative;
+    size: 5%;
+}
+input{
+    size: 3rem;
+} */
