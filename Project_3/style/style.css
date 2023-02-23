@@ -6,6 +6,10 @@
   /* background-color: antiquewhite; */
 }
 
+/* .container{
+  background-color: rgb(229, 243, 243);
+} */
+
 .navs {
   display: flex;
   justify-content: space-between;
@@ -69,16 +73,19 @@
 
 .headlast {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 40px 100px;
   padding: 40px 40px;
   align-content: center;
+  
 }
 .box {
   display: grid;
+  position: relative;
   justify-content: center;
   justify-items: center;
-  padding: 80px;
+  padding: 40px;
 }
 
 .logo {
@@ -88,7 +95,7 @@
 
 .para-b{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     padding: 15px;
 }
 

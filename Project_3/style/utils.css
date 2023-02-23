@@ -1,0 +1,43 @@
+.fl-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainUpImg{
+    height: 50vh;
+    width: 50vw;
+}
+
+.mainUp{
+    /* min-height: 50vh; */
+    width: 50vw;
+    /* padding: 25vw 25vh; */
+    padding: 5rem 0;
+    display: grid; 
+    /* justify-items: center; */
+    align-items: center;
+    text-align: left;
+}
+
+.mainUpPara{
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.mainUpPara-b{
+    font: 3vh sans-serif;
+    padding: 2px;
+}
+
+/* .fw-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+} */
