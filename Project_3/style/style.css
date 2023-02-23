@@ -12,31 +12,45 @@
     align-content: center;
     align-items: center;
     list-style: none;
-    text-size-adjust: 70%;
     
 
 }
-#signbutton{
-    font: 1.5rem sans-serif;
+.signbutton{
+    font: 1rem sans-serif;
+    position:relative;
+    color: white;
+    padding: 1rem 1rem;
+    border: 1px;
+    border-color: none;
+    background-color: rgb(41, 135, 228);
+    border-radius: 20px;
 }
+
+.signbutton:hover{
+    background-color: #294db0;
+}
+
+
 
 #startboot{
     font-size: 2em;
 }
 
 .pfp{
-    margin: 1% 10% 1% 10%;
+    margin: 1% 10%;
     padding: 0 10% 0 10%;
 }
 
 .headmid{
-    display:flex;
-    /* justify-content: center; */
+    display:grid;
+    justify-content: center;
     align-items:baseline;
     padding: 150px;
     
     background-image: url(/Assets/pexels-pixabay-414144.jpg);
 }
+
+
 
 .headmidpara{
     margin: 12px;
@@ -44,10 +58,17 @@
     color: white;
     margin-bottom: 3rem !important;
 }
-/* .headmidinput{
-    position: relative;
-    size: 5%;
+
+.headmidbar{
+    display: flex;
+    justify-content: center;
 }
-input{
-    size: 3rem;
-} */
+
+.headmidinput{
+    position: relative;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font: 1.2rem sans-serif;
+}
