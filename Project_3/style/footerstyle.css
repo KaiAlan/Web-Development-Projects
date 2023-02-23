@@ -1,0 +1,45 @@
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 0;
+}
+
+.foot-logos {
+  height: 40px;
+  border-radius: 50% !important;
+}
+
+.foot-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: aqua;
+  padding: 1rem;
+}
+
+.foot-right-logo {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.nav-pd {
+  padding: 0 1rem;
+}
+
+.lg-pd {
+  padding: 0 1rem;
+}
+
+.foot-para {
+  padding: 0 2rem;
+  color: gray;
+}
+
+.foot-left {
+  padding: 0 15rem;
+}
+
+.foot-right {
+  padding: 0 15rem;
+}
