@@ -1,8 +1,7 @@
 .foot {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 3% 0;
+  justify-content: center;
 }
 
 .foot-logos {
@@ -23,10 +22,10 @@
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-around;
-  padding: 1rem;
+  padding: 3vw 15vh;
 }
 .nav-pd {
-  padding: 0 1rem;
+  padding: 1rem 1rem;
 }
 
 .lg-pd {
@@ -39,9 +38,11 @@
 }
 
 .foot-left {
-  padding: 0 10vh;
+  padding: 3vw 0vh;
 }
 
 .foot-right {
-  padding: 0 10vh;
+  align-content: center;
+  align-items: center;
+  display: flex;
 }
