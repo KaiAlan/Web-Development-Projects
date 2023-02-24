@@ -1,5 +1,6 @@
 .foot {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 3% 0;
 }
@@ -19,6 +20,7 @@
 
 .foot-right-logo {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   justify-content: space-around;
   padding: 1rem;
@@ -37,9 +39,9 @@
 }
 
 .foot-left {
-  padding: 0 15rem;
+  padding: 0 10vh;
 }
 
 .foot-right {
-  padding: 0 15rem;
+  padding: 0 10vh;
 }
