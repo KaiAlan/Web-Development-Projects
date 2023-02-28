@@ -3,22 +3,22 @@
 @import url(./utils.css);
 
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar {
     display: inline-flex;
     justify-content: center;
-  padding: 0 1.5rem;
-  background-color: none;
-  position: fixed;
-  z-index: 1030;
-  transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    padding: 0 1.5rem;
+    background-color: none;
+    position: fixed;
+    z-index: 1030;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
 }
 
-@media(min-width: 992){
-    .navbar{
+@media(min-width: 992) {
+    .navbar {
         padding: 0 1rem;
         background-color: #212529;
     }
@@ -34,27 +34,27 @@
     align-items: center;
     flex-wrap: inherit;
     margin: 0 15rem;
-  }
+}
 
 .nb-link {
-  height: 1.5rem;
-  padding: 1rem;
+    height: 1.5rem;
+    padding: 1rem;
 }
 
 .nav-link {
-  color: white;
-  text-decoration: none;
-  font-family: "Ubuntu", sans-serif;
-  letter-spacing: 0.0625em;
+    color: white;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 0.0625em;
 }
 
 .nn-item {
-  display: inline-flex;
-  justify-content: space-around;
-  align-content: center;
-  align-items: center;
-  list-style: none;
-  padding: 1rem;
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 1rem;
 }
 
 /* header styling */
@@ -66,73 +66,74 @@
 .headbar {
     display: flex;
     justify-content: center;
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("/Project-04/Assets/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("/Project-04/Assets/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
+
 @media (min-width: 768px) {
-  header.headbar {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
-  }
+    header.headbar {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
 }
 
 .headbar-up {
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 2rem;
-  margin: 2rem 0;
-  font-style: italic;
-  /* display: block; */
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2rem;
+    margin: 2rem 0;
+    font-style: italic;
+    /* display: block; */
 }
 
 @media (min-width: 768px) {
-  .headbar-up {
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 2rem;
-    margin-bottom: 2rem;
-    /* display: block; */
-  }
+    .headbar-up {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+        /* display: block; */
+    }
 }
 
 .headbar-middle {
-  font-size: 3.2rem;
-  font-weight: 700;
-  line-height: 3.2rem;
-  margin-bottom: 2rem;
-  /* display: block; */
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    margin-bottom: 2rem;
+    /* display: block; */
 }
 
 @media (min-width: 768px) {
-  .headbar-middle {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
-  }
+    .headbar-middle {
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+    }
 }
 
 .headbar-bottom {
-  padding: 1.25rem 2.5rem;
-  color: white;
-  font-weight: 700;
-  font-size: 1.25rem;
-  display: inline-block;
-  cursor: cell;
-  background-color: #ffc800;
-  border-radius: 0.4rem;
-  border-color: #ffc800;
+    padding: 1.25rem 2.5rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+    display: inline-block;
+    cursor: cell;
+    background-color: #ffc800;
+    border-radius: 0.4rem;
+    border-color: #ffc800;
 }
 
-@media(max-width: 700px){
-    .headbar-bottom{
+@media(max-width: 700px) {
+    .headbar-bottom {
         padding: .725rem 1.5rem;
         font-size: 1rem;
     }

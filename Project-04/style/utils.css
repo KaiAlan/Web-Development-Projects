@@ -4,3 +4,9 @@
     text-transform: uppercase !important;
 
 }
+
+.s1-box-img{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+}
