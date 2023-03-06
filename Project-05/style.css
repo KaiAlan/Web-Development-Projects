@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-/* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Ubuntu&display=swap');
+/* font-family: 'Rubik Iso', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 /* font-family: 'Ubuntu', sans-serif; */
 
@@ -14,6 +14,7 @@
 main {
   min-height: 100vh;
   background: linear-gradient(to right top, #0a68fb, #e822e5);
+  /* background: linear-gradient(to right top, #2620ec, #14eab8); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +22,7 @@ main {
 
 .glass {
   background: white;
-  min-height: 80vh;
+  min-height: 60vh;
   width: 60%;
   background: linear-gradient(
     to right bottom,
@@ -29,11 +30,14 @@ main {
     rgba(255, 255, 255, 0.3)
   );
 
+  /* background: linear-gradient( to right top, rgba(13, 103, 251,0.2), rgba(225, 36, 230,0.1) ); */
+
   border-radius: 2rem;
   z-index: 2;
   backdrop-filter: blur(2rem);
   display: flex;
   flex-direction: column;
+  box-shadow: -1px -1px 20px 0px rgba(0,0,0,0.43);
 }
 
 .circle1,
@@ -64,6 +68,7 @@ main {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  margin: 1rem 0;
 
 }
 .links li{
@@ -76,10 +81,12 @@ main {
   color: white;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .info{
   display: flex;
+  margin: 1rem 0;
 }
 
 .info-left{
@@ -87,15 +94,22 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  padding-left: 2rem;
 }
 
 .info-left h1{
-
+  font-family: 'Rubik Iso', cursive;
+  font-weight: 1200;
+  font-size: 2rem;
+  margin: 0 3rem;
+  color: white;
 }
 
 .info-left p{
-
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+  margin: 2rem 3rem;
 }
 
 button{
@@ -106,12 +120,16 @@ button{
   box-shadow: 10px 9px 11px -1px #2d5df8;
   height: 2rem;
   width: 8rem;
+  margin: 1rem 3rem;
+  font-weight: 800;
 }
 
 .info-right{
   flex: 1;
+  padding-right: 2rem;
 }
 
 .info-right img{
-  height: 20rem;
+  height: 25rem;
+  margin: 3rem;
 }
