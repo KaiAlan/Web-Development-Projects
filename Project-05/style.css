@@ -64,6 +64,11 @@ main {
   left: 10%;
 }
 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
 .links{
   display: flex;
   justify-content: flex-end;
@@ -84,9 +89,15 @@ main {
   text-decoration: none;
 }
 
+.logo img{
+  height: 8rem;
+  margin: 0 2rem;
+}
+
 .info{
   display: flex;
   margin: 1rem 0;
+  flex-wrap: wrap-reverse;
 }
 
 .info-left{
@@ -132,4 +143,46 @@ button{
 .info-right img{
   height: 25rem;
   margin: 3rem;
+}
+
+@media only screen and (max-width: 1300px) {
+  .info-left{
+    margin-left: 2rem;
+  }
+
+  .info-right{
+    margin-left: 2rem;
+  }
+
+  .info-right img{
+    height: 12rem;
+    margin-left: 3rem;
+  }
+
+  .glass{
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .navbar{
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+  }
+}
+
+body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track{
+  
+  background: linear-gradient(to right top, #0a68fb, #e822e5);
+  /* background: linear-gradient(to right top, #2620ec, #14eab8); */
+}
+
+body::-webkit-scrollbar-thumb{
+  background: linear-gradient(to right top, #2620ec, #14eab8);
+  /* background: linear-gradient( to right top, rgba(13, 103, 251,0.2), rgba(225, 36, 230,0.1) ); */
 }
