@@ -12,3 +12,43 @@
     top: 0;
     left: 0;
 }
+
+.navbar{
+    position: fixed;
+    min-width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 2;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: inherit; */
+    height: 100vh;
+}
+
+.upmid{
+    position: fixed;
+    color: #fff;
+    /* background-color: none; */
+}
+
